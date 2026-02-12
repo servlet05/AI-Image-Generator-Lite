@@ -3,9 +3,7 @@
 Generador de imágenes IA **ultra liviano** para PCs de bajos recursos.  
 Funciona en CPU sin GPU, ideal para equipos viejos o sin tarjeta gráfica.
 
-<p align="center">
-  <img src="docs/images/demo.jpg" alt="demo" width="400"/>
-</p>
+
 
 ## ✨ Características
 
