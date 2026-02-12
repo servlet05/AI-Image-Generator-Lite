@@ -59,3 +59,26 @@ gen.generate(
     steps=20,        # Iteraciones (más = mejor calidad)
     guidance=7.5     # Creatividad
 )
+
+
+
+
+################################################################
+Para Publicar
+################################################################
+
+# 1. Inicializar git
+git init
+git add .
+git commit -m "Initial commit: AI Image Generator Lite"
+
+# 2. Crear repo en GitHub (via web)
+
+# 3. Subir
+git remote add origin https://github.com/tuusuario/ai-image-generator-lite.git
+git branch -M main
+git push -u origin main
+
+# 4. Crear release (opcional)
+git tag -a v0.1.0 -m "Primera versión"
+git push origin v0.1.0
