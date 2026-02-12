@@ -1,0 +1,13 @@
+# Core
+optimum-intel[openvino]>=1.14.0
+diffusers>=0.24.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# Utilidades
+pillow>=10.0.0
+psutil>=5.9.0
+numpy>=1.24.0
+
+# Opcional (solo CPU)
+# --index-url https://download.pytorch.org/whl/cpu
