@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python examples/demo.py
 
 
-
+---
 📝 Uso Básico (Python)
 from src.generator import LiteImageGenerator
 
@@ -38,7 +38,7 @@ gen = LiteImageGenerator()
 # Generar imagen
 gen.generate("paisaje cyberpunk", "output.jpg")
 
-
+---
 ⚙️ Personalización (Python)
 # Modelos disponibles
 gen = LiteImageGenerator(model="tiny")   # 30MB, rápido
