@@ -21,7 +21,7 @@ Funciona en CPU sin GPU, ideal para equipos viejos o sin tarjeta gráfica.
 ```bash
 # 1. Clonar
 git clone https://github.com/servlet05/AI-Image-Generator-Lite.git
-cd ai-image-generator-lite
+cd Ai-Image-Generator-Lite
 
 # 2. Instalar
 pip install -r requirements.txt
