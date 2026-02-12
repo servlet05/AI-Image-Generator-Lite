@@ -10,7 +10,7 @@ setup(
     description="Generador de imágenes IA ultra liviano para CPU",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tuusuario/ai-image-generator-lite",
+    url="https://github.com/servlet05/AI-Image-Generator-Lite",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
