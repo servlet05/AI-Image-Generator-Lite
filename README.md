@@ -28,3 +28,14 @@ pip install -r requirements.txt
 
 # 3. ¡Generar!
 python examples/demo.py
+
+################################################################
+uso basico
+################################################################
+from src.generator import LiteImageGenerator
+
+# Inicializar (carga automática)
+gen = LiteImageGenerator()
+
+# Generar imagen
+gen.generate("paisaje cyberpunk", "output.jpg")
