@@ -14,7 +14,7 @@ Funciona en CPU sin GPU, ideal para equipos viejos o sin tarjeta gráfica.
 - ✅ **Multi-plataforma** - Windows, Linux, Mac
 - ✅ **API simple** - 3 líneas de código
 
-## 🚀 Instalación Rápida
+### 🚀 Instalación Rápida
 
 ```bash
 # 1. Clonar
@@ -28,7 +28,8 @@ pip install -r requirements.txt
 python examples/demo.py
 
 
-## 🚀 Uso Básico
+#### 🚀 Uso Básico
+```bash
 from src.generator import LiteImageGenerator
 
 # Inicializar (carga automática)
@@ -39,8 +40,9 @@ gen.generate("paisaje cyberpunk", "output.jpg")
 
 
 
-## 🚀 Personalizacion
+##### 🚀 Personalizacion
 # Modelos disponibles
+```bash
 gen = LiteImageGenerator(model="tiny")  # 30MB, rápido
 gen = LiteImageGenerator(model="small") # 80MB, mejor calidad
 
