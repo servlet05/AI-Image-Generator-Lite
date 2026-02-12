@@ -29,6 +29,8 @@ pip install -r requirements.txt
 # 3. ¡Generar!
 python examples/demo.py
 
+
+
 ################################################################
 uso basico
 ################################################################
@@ -39,3 +41,21 @@ gen = LiteImageGenerator()
 
 # Generar imagen
 gen.generate("paisaje cyberpunk", "output.jpg")
+
+
+
+
+################################################################
+Personalizacion
+################################################################
+# Modelos disponibles
+gen = LiteImageGenerator(model="tiny")  # 30MB, rápido
+gen = LiteImageGenerator(model="small") # 80MB, mejor calidad
+
+# Parámetros
+gen.generate(
+    prompt="gato espacial",
+    output="cat.jpg",
+    steps=20,        # Iteraciones (más = mejor calidad)
+    guidance=7.5     # Creatividad
+)
